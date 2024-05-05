@@ -17,10 +17,10 @@ jobs:
   result:
 
     runs-on: ubuntu-latest
-    environment: ${{ github.event.inputs.dEnvironment }}
+    environment: ${{ inputs.dEnvironment }}
     steps:
       - name: Printing some information
-        run: echo ${{ github.event.inputs.sVariable }}
+        run: echo ${{ inputs.sVariable }}
 
       - name: Print some secret
         run: echo ${{ secrets.TEST }}
