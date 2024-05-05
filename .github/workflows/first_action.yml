@@ -4,6 +4,7 @@ on: workflow_dispatch
 
 jobs:
   first_job:
+    environment: dev
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
@@ -17,3 +18,4 @@ jobs:
   hopefully_output_action:
     needs: first_job
     uses: ./.github/workflows/output.yml
+    secrets: inherit

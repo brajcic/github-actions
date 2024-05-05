@@ -4,7 +4,11 @@ on: workflow_call
 
 jobs:
   result:
+
     runs-on: ubuntu-latest
     steps:
       - name: Printing some information
         run: echo "Some information"
+
+      - name: Print some secret
+        run: echo "${{ secrets.MYSECRET }}"
