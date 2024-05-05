@@ -7,6 +7,10 @@ on:
         description: "Desired environment"
         required: true
         type: string
+      sVariable:
+        description: "Second variable"
+        required: true
+        type: string
 
 
 jobs:
@@ -16,7 +20,7 @@ jobs:
     environment: ${{ github.event.inputs.dEnvironment }}
     steps:
       - name: Printing some information
-        run: echo "Some information"
+        run: echo ${{ github.event.inputs.sVariable }}
 
       - name: Print some secret
-        run: echo "${{ secrets.TEST }}"
+        run: echo ${{ secrets.TEST }}
