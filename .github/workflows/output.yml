@@ -20,7 +20,9 @@ jobs:
     environment: ${{ inputs.dEnvironment }}
     steps:
       - name: Printing some information
-        run: echo ${{ inputs.sVariable }}
+        run: |
+          echo ${{ inputs.sVariable }}
+          echo $sVariable
 
       - name: Print some secret
         run: echo ${{ secrets.TEST }}
