@@ -19,3 +19,5 @@ jobs:
     needs: first_job
     uses: ./.github/workflows/output.yml
     secrets: inherit
+    with:
+      desired_environment: "test"

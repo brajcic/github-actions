@@ -1,12 +1,19 @@
 name: Output Workflow
 
-on: workflow_call
+on:
+  workflow_call:
+    inputs:
+      desired_environment:
+        description: "Desired environment"
+        required: true
+        type: string
+
 
 jobs:
   result:
 
     runs-on: ubuntu-latest
-    environment: dev
+    environment: ${{ desired_environment }}
     steps:
       - name: Printing some information
         run: echo "Some information"
