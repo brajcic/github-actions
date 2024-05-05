@@ -15,4 +15,5 @@ jobs:
         run: echo "Goodbye!"
 
   hopefully_output_action:
+    needs: first_job
     uses: ./.github/workflows/output.yml
