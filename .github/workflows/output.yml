@@ -1,10 +1,10 @@
 name: Output Workflow
 
-on: workflow_dispatch
+on: workflow_call
 
 jobs:
   result:
     runs-on: ubuntu-latest
     steps:
-      - name: Printing meta / context information
-        run: echo "${{ toJSON(github) }}"
+      - name: Printing some information
+        run: echo "Some information"

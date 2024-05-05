@@ -13,3 +13,6 @@ jobs:
 
       - name: Print goodbye
         run: echo "Goodbye!"
+
+  hopefully_output_action:
+    uses: ./.github/workflows/output.yml
