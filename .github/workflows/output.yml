@@ -6,9 +6,10 @@ jobs:
   result:
 
     runs-on: ubuntu-latest
+    environment: dev
     steps:
       - name: Printing some information
         run: echo "Some information"
 
       - name: Print some secret
-        run: echo "${{ secrets.MYSECRET }}"
+        run: echo "${{ secrets.TEST }}"
