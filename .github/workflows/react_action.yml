@@ -1,6 +1,6 @@
 name: React Tests
 
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
   react_job_test:

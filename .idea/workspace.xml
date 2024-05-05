@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fca194eb-7c8d-4f6d-9eec-b40752991638" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/react_action.yml" afterDir="false" />
+    <list default="true" id="fca194eb-7c8d-4f6d-9eec-b40752991638" name="Changes" comment="Added deploy job afterwards">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/react_action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/react_action.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,48 @@
       <option name="presentableId" value="Default" />
       <updated>1714912840843</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added react_action and React app">
+      <option name="closed" value="true" />
+      <created>1714913446550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714913446550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added job name">
+      <option name="closed" value="true" />
+      <created>1714913542665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714913542665</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added deploy job afterwards">
+      <option name="closed" value="true" />
+      <created>1714915009369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714915009369</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added react_action and React app" />
+    <MESSAGE value="Added job name" />
+    <MESSAGE value="Added deploy job afterwards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added deploy job afterwards" />
   </component>
 </project>
