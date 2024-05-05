@@ -21,8 +21,8 @@ jobs:
     steps:
       - name: Printing some information
         run: |
-          echo ${{ inputs.sVariable }}
-          echo $sVariable
+            echo ${{ inputs.sVariable }}
+            echo $sVariable
 
       - name: Print some secret
         run: echo ${{ secrets.TEST }}
