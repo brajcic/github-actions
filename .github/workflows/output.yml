@@ -3,7 +3,7 @@ name: Output Workflow
 on:
   workflow_call:
     inputs:
-      desired_environment:
+      dEnvironment:
         description: "Desired environment"
         required: true
         type: string
@@ -13,7 +13,7 @@ jobs:
   result:
 
     runs-on: ubuntu-latest
-    environment: ${{ desired_environment }}
+    environment: ${{ dEnvironment }}
     steps:
       - name: Printing some information
         run: echo "Some information"

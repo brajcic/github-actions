@@ -20,4 +20,4 @@ jobs:
     uses: ./.github/workflows/output.yml
     secrets: inherit
     with:
-      desired_environment: "test"
+      dEnvironment: "test"
