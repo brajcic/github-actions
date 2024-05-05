@@ -27,3 +27,4 @@ jobs:
     secrets: inherit
     with:
       dEnvironment: "test"
+      sVariable: "Bole"
