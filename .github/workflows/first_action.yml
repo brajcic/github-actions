@@ -5,7 +5,7 @@ on:
     inputs:
       dEnvironment:
         description: "Some environment"
-        required: true
+        required: false
         default: "dev"
 
 jobs:
