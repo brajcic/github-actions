@@ -1,12 +1,6 @@
 name: First Workflow
 
-on:
-  workflow_dispatch:
-    inputs:
-      dEnvironment:
-        description: "Some environment"
-        required: false
-        default: "dev"
+on: workflow_dispatch
 
 jobs:
   first_job:
